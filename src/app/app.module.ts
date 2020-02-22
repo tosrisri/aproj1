@@ -19,6 +19,7 @@ import { TestimonialsComponent } from './components/testimonials/testimonials.co
 import { PricingComponent } from './components/pricing/pricing.component';
 import { FaqsComponent } from './components/faqs/faqs.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ContactusComponent } from './components/contactus/contactus.component';
 
 
 
@@ -38,7 +39,8 @@ import { FooterComponent } from './components/footer/footer.component';
     TestimonialsComponent,
     PricingComponent,
     FaqsComponent,
-    FooterComponent
+    FooterComponent,
+    ContactusComponent
   ],
   imports: [
     BrowserModule,

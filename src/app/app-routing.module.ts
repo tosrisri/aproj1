@@ -14,6 +14,7 @@ import { TeamComponent } from './components/team/team.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { PricingComponent } from './components/pricing/pricing.component';
 import { FaqsComponent } from './components/faqs/faqs.component';
+import { ContactusComponent } from './components/contactus/contactus.component';
 // import { HeaderComponent } from './components/header/header.component';
 // import { FooterComponent } from './components/footer/footer.component';
 
@@ -34,7 +35,9 @@ const routes: Routes = [
   { path: 'Team', component: TeamComponent },
   { path: 'Testimonials', component: TestimonialsComponent },
   { path: 'Pricing', component: PricingComponent },
-  { path: 'Faqs', component: FaqsComponent }
+  { path: 'Faqs', component: FaqsComponent },
+  { path: 'Contactus', component: ContactusComponent },
+  
 ];
 
 @NgModule({

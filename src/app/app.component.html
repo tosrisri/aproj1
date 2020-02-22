@@ -1,11 +1,27 @@
-<div class="header">This is a Header</div>
+<app-header></app-header>
 
-<mat-slider min="1" max="400" step="2" value="1"></mat-slider>
-<div class="container">
-  <div class="row">
-    <div class="col"><i class="fas fa-ambulance"></i></div>
-    <div class="col"><button class="btn btn-primary">Test Button</button></div>
-    <div class="col"><i class="material-icons">speaker_notes</i></div>
-  </div>
-</div>
-<router-outlet></router-outlet>
+ 
+
+  <main id="main">
+    <!-- 
+      <app-intro></app-intro>
+      <app-about></app-about>
+    <app-services></app-services>
+    <app-whyus></app-whyus>
+    <app-cta></app-cta>
+    <app-features></app-features>
+    <app-portfolio></app-portfolio>
+    <app-testimonials></app-testimonials>
+    <app-team></app-team>
+    <app-clients></app-clients>
+    <app-pricing></app-pricing>
+    <app-faqs></app-faqs> -->
+    <router-outlet></router-outlet>
+  </main>
+
+<app-footer></app-footer>
+
+  <a href="#" class="back-to-top"><i class="fab fa-chevron-up"></i></a>
+  <!-- Uncomment below i you want to use a preloader -->
+  <!-- <div id="preloader"></div> -->
+

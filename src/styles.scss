@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'variables';
+@import 'mixins';
+html, body { height: 100%; }
+body { 
+    margin: 0; 
+    font-family: $fonts; 
+    background-color: $dark-grey; 
+    color: rgba(255, 255, 255, 0.7);
+}
+.header {
+    background-color:  $brand-primary;
+}

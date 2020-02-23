@@ -33,7 +33,7 @@
               "node_modules/font-awesome/css/font-awesome.css",
               "src/assets/lib/animate/animate.min.css",
               "src/assets/lib/ionicons/css/ionicons.min.css",
-              "src/assets/lib/owlcarousel/assets/owl.carousel.min.css",
+              "src/assets/lib/owlcarousel/assets/owl.carousel.css",
               "src/assets/lib/lightbox/css/lightbox.min.css",
               "src/styles.scss"
             ],
@@ -43,12 +43,12 @@
               "src/assets/lib/mobile-nav/mobile-nav.js",
               "src/assets/lib/wow/wow.min.js",
               "src/assets/lib/waypoints/waypoints.min.js",
-              "src/assets/lib/counterup/counterup.min.js",
-              "src/assets/lib/owlcarousel/owl.carousel.min.js",
+              "src/assets/lib/counterup/counterup.min.js",              
+              "src/assets/lib/owlcarousel/owl.carousel.js",
               "src/assets/lib/isotope/isotope.pkgd.min.js",
               "src/assets/lib/lightbox/js/lightbox.min.js",
               "src/assets/contactform/contactform.js",
-              "src/assets/js/main.js"
+              "src/assets/js/sitescript.js"
             ]
           },
           "configurations": {

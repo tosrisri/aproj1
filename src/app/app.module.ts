@@ -20,7 +20,8 @@ import { PricingComponent } from './components/pricing/pricing.component';
 import { FaqsComponent } from './components/faqs/faqs.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ContactusComponent } from './components/contactus/contactus.component';
-
+import { configuration } from './configuration';
+import { ConfigService } from './config.service';
 
 
 @NgModule({
@@ -48,7 +49,7 @@ import { ContactusComponent } from './components/contactus/contactus.component';
     BrowserAnimationsModule,
     MatSliderModule,
   ],
-  providers: [],
+  providers: [ ConfigService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
